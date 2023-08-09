@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6375954604212739096}
+  - component: {fileID: 3558940799409530341}
   m_Layer: 5
   m_Name: Row
   m_TagString: Untagged
@@ -40,6 +41,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3558940799409530341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6375954604212739099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a9ddb9f7d7c4e24f99feb7bdfec844f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cells:
+  - {fileID: 5128444767999285156}
+  - {fileID: 3040438965663048153}
+  - {fileID: 4031669713383164607}
+  - {fileID: 5471844416981886431}
 --- !u!1001 &252540246196100428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -142,6 +160,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2522173989265135346, guid: deae4202bc3322e4a9854475b2b3138d, type: 3}
   m_PrefabInstance: {fileID: 252540246196100428}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4031669713383164607 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -5444172200856414221, guid: deae4202bc3322e4a9854475b2b3138d, type: 3}
+  m_PrefabInstance: {fileID: 252540246196100428}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c6b2e40b1c6c5439466cf39025cbc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2180768180270511658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -239,6 +268,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: deae4202bc3322e4a9854475b2b3138d, type: 3}
+--- !u!114 &3040438965663048153 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -5444172200856414221, guid: deae4202bc3322e4a9854475b2b3138d, type: 3}
+  m_PrefabInstance: {fileID: 2180768180270511658}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c6b2e40b1c6c5439466cf39025cbc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &4414419314084372696 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2522173989265135346, guid: deae4202bc3322e4a9854475b2b3138d, type: 3}
@@ -341,6 +381,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: deae4202bc3322e4a9854475b2b3138d, type: 3}
+--- !u!114 &5128444767999285156 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -5444172200856414221, guid: deae4202bc3322e4a9854475b2b3138d, type: 3}
+  m_PrefabInstance: {fileID: 8311832238512357463}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c6b2e40b1c6c5439466cf39025cbc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &5789659360125490853 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2522173989265135346, guid: deae4202bc3322e4a9854475b2b3138d, type: 3}
@@ -443,6 +494,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: deae4202bc3322e4a9854475b2b3138d, type: 3}
+--- !u!114 &5471844416981886431 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -5444172200856414221, guid: deae4202bc3322e4a9854475b2b3138d, type: 3}
+  m_PrefabInstance: {fileID: 9195664051165557292}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c6b2e40b1c6c5439466cf39025cbc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &6673490611668886750 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2522173989265135346, guid: deae4202bc3322e4a9854475b2b3138d, type: 3}
